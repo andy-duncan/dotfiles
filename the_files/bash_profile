@@ -44,6 +44,7 @@ source ~/.bash_boost/terminal_colors
 cat >> $LOGFILE <<< "--- Boost process Successful and Complete!"
 
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 alias morning="bosco morning"
 alias cdn="bosco cdn"
@@ -79,9 +80,5 @@ npm_what() {
 }
 
 alias npm_what=npm_what
-
-export PATH="/Users/andy/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 source ~/.bash_boost/docker_run.sh
