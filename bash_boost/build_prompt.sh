@@ -1,1 +1,1 @@
-PS1="$YELLOW[\$(rvm-prompt v p g)]$NORMAL\$ $PS1"
+PS1="$YELLOW[\$(node --version)]$NORMAL\$ $PS1"
